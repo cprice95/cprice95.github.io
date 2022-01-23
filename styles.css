@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 166, 48);
+}
+
+p {
+    margin: .5em 0 .5em 0;
+    font-size: 10px;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(51, 212, 204);
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+    color: #fff;
+    text-decoration: rgb(104, 12, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/background.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+footer {
+    padding: 15px;
+}
+
+aside,
+article {
+    padding: 2em;
+}
+aside {
+    text-align: center;
+    float: left;
+}
+
+article {
+    width: 75%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    main {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
+}
+
+
+.heading {
+    color: rgb(104, 12, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    }
+.heading2 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading3 {
+    color: rgba(129, 7, 68, 0.815);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+#sd1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#bc1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#dpc1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#cd1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#fwtwc1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
