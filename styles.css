@@ -36,22 +36,38 @@ header {
 nav a:visited,
 nav a:link {
     color: #fff;
-    text-decoration: rgb(104, 12, 104);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 nav > ul {
     display: inline;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav > ul > li {
-    line-height: 1.7em;
+    line-height: 1.2em;
     display: inline-block;
     list-style: none;
     margin: 0 5px 0 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 2, 58);
+    list-style: none;
+    text-decoration: none;
+    line-height: 1em;
+    text-align: left;
+    display: block;
+    margin: .5em 0em .5em 0em;
+    font-size: 18px;
+    padding: 0;
+}
+
+a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 212, 204);
 }
 
 main {
@@ -138,4 +154,3 @@ img {
     margin: 0 auto;
     max-width: 100%;
 }
-
